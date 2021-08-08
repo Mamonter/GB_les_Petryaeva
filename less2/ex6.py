@@ -19,7 +19,7 @@ while True:
             print(f'{category}: {value}')
     for f in param.keys():
         param2 = input(f'введите "{f}" >>')
-        param[f] = int(param2) if (f == 'price' or f == 'quantity') else param2
+        param[f] = int(param2) if (f == 'latin') else param2
         analys[f].append(param[f])
     tovar.append((num, param))
 
