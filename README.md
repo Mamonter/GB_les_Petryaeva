@@ -1,1 +1,2 @@
-# GB_les_Petryaeva
+# Petryaeva Daria
+Репозиторий для сдачи домашки на DB 
