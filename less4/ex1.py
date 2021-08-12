@@ -4,10 +4,10 @@
 def sal():
     try:
         time = float(input('Выработка в часах >> '))
-        salary = int(input('Ставка в час >> '))
-        bonus = int(input('Премия >> '))
-        res = time * salary + bonus
-        print(f'Рассчет заработной платы сотрудника равен {res}')
+        stavka = int(input('Ставка в час >> '))
+        premia = int(input('Премия >> '))
+        result = time * stavka + premia
+        print(f'Рассчет заработной платы сотрудника равен {result}')
     except ValueError:
         return print('ValueError')
 sal()
